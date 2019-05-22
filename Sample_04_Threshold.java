@@ -13,8 +13,8 @@ import jdk.jfr.Threshold;
 //
 // Valid units for a threshold are: ns, us, ms, s, m, h, and d.
 //
-// The sample also show that invoking the commit method ends timing of 
-// the event without the need of an explicit call to the end method. 
+// The sample also shows that invoking the commit method ends timing of 
+// the event without the need for an explicit call to the end method. 
 // 
 // By default events have a threshold of 0 ns, so it recommended to set a
 // threshold if an operation occurs frequently and outliers are of greatest 
