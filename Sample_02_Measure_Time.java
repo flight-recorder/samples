@@ -26,7 +26,6 @@ public class Sample_02_Measure_Time {
 		DurationEvent event = new DurationEvent();
 		event.begin();
 		Thread.sleep(42);
-		event.end();
 		event.commit();
 	}
 }
